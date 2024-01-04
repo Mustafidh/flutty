@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo_1"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#310055"
+        android:id="@+id/txt_1"
+        android:fontFamily="@font/p2"
+        android:textSize="16dp"
+        android:layout_below="@+id/logo_1"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_1"
+        android:hint="Masukan Email Anda"
+        android:id="@+id/edt_email"
+        android:layout_marginBottom="30dp"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#310055"
+        android:fontFamily="@font/p2"
+        android:id="@+id/txt_2"
+        android:textSize="16dp"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginBottom="10dp"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_2"
+        android:hint="Masukan Password Anda"
+        android:id="@+id/edt_password"
+        android:layout_marginBottom="20dp"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/p1"
+        android:id="@+id/btn_login"
+        android:backgroundTint="#310055"
+        android:text="LOGIN"
+        android:layout_below="@id/edt_password"></Button>
+</RelativeLayout>

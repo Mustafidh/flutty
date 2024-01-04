@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaguRock"
+    android:id="@+id/lv_rock">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_lagurock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="138dp"
+        tools:itemCount="7"
+        tools:listitem="@layout/lagu_item"></androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="320dp"
+        android:src="@drawable/add"></ImageView>
+</RelativeLayout>
